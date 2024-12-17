@@ -509,86 +509,86 @@
     <!-- Modal Window -->
     <div class="modalwindow">
       <div class="modalwindow-box">
-       <button class="modalform-button1" type="button">
-         <svg class="modalform-button-icon" width="8" height="8">
-           <use href="./images/icons2.svg#close-black"></use>
-         </svg>
-       </button>
-       <p class="modal-title">Leave your contacts and we will call you back</p>
-       <form class="">
-        <div class="modalform">
-          <label class="" for="user-name">Name</label>
-          <div class="modalform-field">
+        <button class="modalform-button1" type="button">
+          <svg class="modalform-button-icon" width="8" height="8">
+            <use href="./images/icons2.svg#close-black"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form class="">
+          <div class="modalform">
+            <label class="" for="user-name">Name</label>
+            <div class="modalform-field">
+              <input
+                class=""
+                type="text"
+                name="user-name"
+                id="user-name"
+                required
+              />
+              <svg class="modalform-icon" height="24" width="18">
+                <use href="./images/icons2.svg#name"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modalform">
+            <label class="" for="user-phone">Phone</label>
+            <div class="modalform-field">
+              <input
+                class=""
+                type="text"
+                name="user-phone"
+                id="user-phone"
+                required
+              />
+              <svg class="modalform-icon" height="24" width="18">
+                <use href="./images/icons2.svg#phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modalform">
+            <label class="" for="user-email">Email</label>
+            <div class="modalform-field">
+              <input
+                class=""
+                type="text"
+                name="user-email"
+                id="user-email"
+                required
+              />
+              <svg class="modalform-icon" height="24" width="18">
+                <use href="./images/icons2.svg#email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modalform-comment">
+            <label for="user-comment">Comment</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="modalform-agreement">
             <input
-              class=""
-              type="text"
-              name="user-name"
-              id="user-name"
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
               required
             />
-            <svg class="modalform-icon" height="24" width="18">
-              <use href="./images/icons2.svg#name"></use>
-            </svg>
+            <label for="user-privacy" class="label-privacy">
+              <span class="span-privacy">
+                <svg class="span-icon" height="8" width="10">
+                  <use href="./images/icons3.svg#Checkbox"></use>
+                </svg> </span
+              >I accept the terms and conditions of the
+              <a href="" class="privacy-link">Privacy Policy</a>
+            </label>
           </div>
-        </div>
-        <div class="modalform">
-          <label class="" for="user-phone">Phone</label>
-          <div class="modalform-field">
-            <input
-              class=""
-              type="text"
-              name="user-phone"
-              id="user-phone"
-              required
-            />
-            <svg class="modalform-icon" height="24" width="18">
-              <use href="./images/icons2.svg#phone"></use>
-            </svg>
-          </div>
-        </div>
-        <div class="modalform">
-          <label class="" for="user-email">Email</label>
-          <div class="modalform-field">
-            <input
-              class=""
-              type="text"
-              name="user-email"
-              id="user-email"
-              required
-            />
-            <svg class="modalform-icon" height="24" width="18">
-              <use href="./images/icons2.svg#email"></use>
-            </svg>
-          </div>
-        </div>
-        <div class="modalform-comment">
-          <label for="user-comment">Comment</label>
-          <textarea
-            name="user-comment"
-            id="user-comment"
-            placeholder="Text input"
-          ></textarea>
-        </div>
-         <div class="modalform-agreement">
-           <input
-            type="checkbox"
-            name="user-privacy"
-            id="user-privacy"
-            value="true"
-            required
-           />
-           <label for="user-privacy">
-             <span class="span-privacy">
-               <svg class="span-icon" height="8" width="10">
-                <use href=""></use>
-               </svg>
-             I accept the terms and conditions of the
-             <a href="" class="privacy-link">Privacy Policy</a>
-           </label>
-         </div>
-         <button class="modalform-button2" type="submit">Send</button>
-       </form>
-     </div>
+          <button class="modalform-button2" type="submit">Send</button>
+        </form>
+      </div>
     </div>
     <!-- Modal Window End -->
   </body>
