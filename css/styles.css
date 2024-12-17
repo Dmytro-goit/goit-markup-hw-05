@@ -554,7 +554,7 @@ border: 1px solid #fff;
     line-height: 2;
     letter-spacing: 0.04em;
     padding-left: 16px;
-    background: #2e2f42;
+    background: transparent;
     color: #fff;
 }
 
@@ -572,12 +572,15 @@ border: 1px solid #fff;
         border-radius: 4px;
         height: 40px;
         margin: 0 auto;
-        display: block;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+        display: flex;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        align-items: center;
+
 }
 
 .send-icon {
 fill: #fff;
+margin-left: 16px;
 }
                                                            /*region-footer*/
 /* Modal Window */
