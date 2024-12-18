@@ -762,7 +762,7 @@ margin-bottom: 24px;
     justify-content: center;
     fill: transparent;
 }
-
+/* input:checked+label>span */
 .checkbox-modal:checked + .user-privacy > .span-privacy {
     background-color: #404bbf;
     border: none;
