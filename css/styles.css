@@ -763,7 +763,7 @@ margin-bottom: 24px;
     fill: transparent;
 }
 /* input:checked+label>span */
-.checkbox-modal:checked+.span-privacy {
+.checkbox-modal:checked + .label-privacy > .span-privacy {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
