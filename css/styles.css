@@ -515,6 +515,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+
 .icons-two-link:hover, 
 .icons-two-link:focus {
 background-color: #31d0aa;
@@ -538,10 +539,6 @@ flex-direction: column;
 .footer-form-field {
     display: flex;
     gap: 24px;
-}
-
-.footer-label {
-
 }
 
 .footer-input {
@@ -739,8 +736,8 @@ margin-bottom: 16px;
 margin-bottom: 24px;
 }
 
-.checkbox-modal {
-
+.span-icon {
+fill: #F4F4FD;
 }
 
 
@@ -771,6 +768,7 @@ margin-bottom: 24px;
 
 .privacy-link {
     color: #4D5AE5;
+    text-decoration: underline;
 }
 
 .modalform-button-two {
